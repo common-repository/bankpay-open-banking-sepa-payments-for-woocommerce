@@ -1,0 +1,48 @@
+
+ul.order_details {
+    max-width: 50%;
+    min-width: 40%;
+    float: left;
+}
+
+ul.order_details li.date, ul.order_details li.method {
+    display: none;
+}
+
+#oppwa-payment {
+    margin: 0.5em auto;
+    padding: 0.5em;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    text-align: center;
+
+    float: right;
+}
+
+#oppwa-payment-message {
+    text-align: center;
+    font-size: 0.5em;
+    padding-top: 1.5em;
+}
+
+.wpwl-button-pay {
+    width: 100%;
+}
+
+.wpwl-message {
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+
+.wpwl-message span {
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 1.5em;
+    display: block;
+}
+
+.wpwl-group-button div {
+    margin: 0.1em auto;
+    width: 240px;
+}
